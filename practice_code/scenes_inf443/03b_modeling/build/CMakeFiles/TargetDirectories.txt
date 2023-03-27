@@ -1,0 +1,3 @@
+/home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/build/CMakeFiles/03b_modeling.dir
+/home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/build/CMakeFiles/edit_cache.dir
+/home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/build/CMakeFiles/rebuild_cache.dir

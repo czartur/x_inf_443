@@ -1,3 +1,0 @@
-/home/czar/code/inf443/practice_code/scenes_inf443/05_animation/a_hierarchy/build/CMakeFiles/a_hierarchy.dir
-/home/czar/code/inf443/practice_code/scenes_inf443/05_animation/a_hierarchy/build/CMakeFiles/edit_cache.dir
-/home/czar/code/inf443/practice_code/scenes_inf443/05_animation/a_hierarchy/build/CMakeFiles/rebuild_cache.dir

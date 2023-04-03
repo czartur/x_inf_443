@@ -1,3 +1,0 @@
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/04b_textures/a_texture_uv/build/CMakeFiles/a_texture_uv.dir
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/04b_textures/a_texture_uv/build/CMakeFiles/edit_cache.dir
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/04b_textures/a_texture_uv/build/CMakeFiles/rebuild_cache.dir

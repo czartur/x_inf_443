@@ -87,8 +87,7 @@ void scene_structure::initialize()
 	hierarchy.add(wing, "WingR", "Body", {0.5, 0, 0});
 	hierarchy.add(wing_son, "WingR son", "WingR", {0.6f, 0, 0});
 	
-	wing.model.scaling_xyz = {-1, 1, 1};
-	wing_son.model.scaling_xyz = {-1, 1, 1};
+	wing.model.scaling_xyz = {-1, 1, 1};lea	wing_son.model.scaling_xyz = {-1, 1, 1};
 
 	hierarchy.add(wing, "WingL", "Body", {-0.5f, 0, 0});
 	hierarchy.add(wing_son, "WingL son", "WingL", {-0.6f, 0, 0});

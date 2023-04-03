@@ -18,7 +18,8 @@ void scene_structure::initialize()
 
 	int N_terrain_samples = 100;
 	float terrain_length = 20;
-	mesh const terrain_mesh = create_terrain_mesh(N_terrain_samples, terrain_length);
+	
+	terrain_mesh = create_terrain_mesh(N_terrain_samples, terrain_length);
 	terrain.initialize_data_on_gpu(terrain_mesh);
 	terrain.material.color = { 0.6f,0.85f,0.5f };
 	terrain.material.phong.specular = 0.0f; // non-specular terrain material
@@ -28,7 +29,7 @@ void scene_structure::initialize()
 
 	mesh const tree_mesh = create_tree();
 	tree.initialize_data_on_gpu(tree_mesh);
-	tree.model.translation = vec3{0,0,evaluate_terrain_height(0,0,terrain_length)};
+	tree.model.translation = vec3{0,0,evaluate_terrain_height(0,0)};
 
 	// mesh const cylinder_mesh = create_cylinder_mesh(1.0f, 6.0f);
 	// cylinder.initialize_data_on_gpu(cylinder_mesh);
@@ -117,6 +118,13 @@ void scene_structure::display_gui()
 {
 	ImGui::Checkbox("Frame", &gui.display_frame);
 	ImGui::Checkbox("Wireframe", &gui.display_wireframe);
+	
+	bool update = false;
+	update |= ImGui::SliderFloat("Persistance", &parameters.persistency, 0.1f, 0.6f);
+	update |= ImGui::SliderFloat("Frequency gain", &parameters.frequency_gain, 1.5f, 2.5f);
+	update |= ImGui::SliderInt("Octave", &parameters.octave, 1, 8);
+
+	if(update) update_terrain(terrain_mesh, terrain,100, 20, parameters);
 }
 
 void scene_structure::mouse_move_event()

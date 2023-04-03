@@ -1,4 +1,4 @@
-# Install script for directory: /home/czar/code/inf443/inf443_practice_code/scenes_inf443/01_introduction
+# Install script for directory: /home/czar/code/inf443/practice_code/scenes_inf443/01_introduction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/czar/code/inf443/inf443_practice_code/scenes_inf443/01_introduction/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/czar/code/inf443/practice_code/scenes_inf443/01_introduction/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

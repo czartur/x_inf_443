@@ -326,4 +326,5 @@ CMakeFiles/03b_modeling.dir/src/main.cpp.o: \
  /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.hpp \
  /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.hpp \
  /home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/src/environment.hpp \
- /home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/src/scene.hpp
+ /home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/src/scene.hpp \
+ /home/czar/code/inf443/inf443_practice_code/scenes_inf443/03b_modeling/src/terrain.hpp

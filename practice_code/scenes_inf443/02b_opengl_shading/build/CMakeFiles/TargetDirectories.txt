@@ -1,3 +1,3 @@
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/02b_opengl_shading.dir
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/edit_cache.dir
-/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/rebuild_cache.dir
+/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/02b_opengl_shading.dir
+/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/edit_cache.dir
+/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/rebuild_cache.dir

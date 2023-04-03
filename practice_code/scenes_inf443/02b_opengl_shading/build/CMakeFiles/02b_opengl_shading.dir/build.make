@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading
+CMAKE_SOURCE_DIR = /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build
+CMAKE_BINARY_DIR = /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/02b_opengl_shading.dir/depend.make
@@ -69,1415 +69,1415 @@ include CMakeFiles/02b_opengl_shading.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/02b_opengl_shading.dir/flags.make
 
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.s
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o -c /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
-
-CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o: /home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o: /home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o -c /home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.s
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: /home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o -c /home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp > CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.i
+
+CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp -o CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.s
 
 CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
 CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o: ../src/environment.cpp
 CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o -c /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o -c /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp
 
 CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp > CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp > CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.i
 
 CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp -o CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/environment.cpp -o CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.s
 
 CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
 CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o -c /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o -c /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp
 
 CMakeFiles/02b_opengl_shading.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/src/main.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp > CMakeFiles/02b_opengl_shading.dir/src/main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp > CMakeFiles/02b_opengl_shading.dir/src/main.cpp.i
 
 CMakeFiles/02b_opengl_shading.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/src/main.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp -o CMakeFiles/02b_opengl_shading.dir/src/main.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/main.cpp -o CMakeFiles/02b_opengl_shading.dir/src/main.cpp.s
 
 CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o: CMakeFiles/02b_opengl_shading.dir/flags.make
 CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o: ../src/scene.cpp
 CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o: CMakeFiles/02b_opengl_shading.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o -c /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o -MF CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o.d -o CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o -c /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp
 
 CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp > CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp > CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.i
 
 CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp -o CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/src/scene.cpp -o CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.s
 
 # Object files for target 02b_opengl_shading
 02b_opengl_shading_OBJECTS = \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o" \
-"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o" \
+"CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o" \
 "CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o" \
 "CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o" \
 "CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o"
@@ -1485,104 +1485,104 @@ CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.s: cmake_force
 # External object files for target 02b_opengl_shading
 02b_opengl_shading_EXTERNAL_OBJECTS =
 
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpgd.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/jpeg/jpge.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/lodepng/lodepng.cpp.o
-02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray/test/test_numarray.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/test/test_numarray_stack.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/error/error.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/base/string/string.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid/test/test_grid.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/files/files.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/core/path/path.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/test/test_vec_mat.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/mat/test/test_matrix_stack.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/helper/marching_cubes_lut.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/test/test_rotation.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/cgp/graphics/window/window.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/glad/opengl46/glad.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_demo.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_draw.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_widgets.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpgd.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/jpeg/jpge.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/lodepng/lodepng.cpp.o
+02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/home/czar/code/inf443/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp.o
 02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/src/environment.cpp.o
 02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/src/main.cpp.o
 02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/src/scene.cpp.o
 02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/build.make
 02b_opengl_shading: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 02b_opengl_shading: CMakeFiles/02b_opengl_shading.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking CXX executable 02b_opengl_shading"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking CXX executable 02b_opengl_shading"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/02b_opengl_shading.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1594,6 +1594,6 @@ CMakeFiles/02b_opengl_shading.dir/clean:
 .PHONY : CMakeFiles/02b_opengl_shading.dir/clean
 
 CMakeFiles/02b_opengl_shading.dir/depend:
-	cd /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build /home/czar/code/inf443/inf443_practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/02b_opengl_shading.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build /home/czar/code/inf443/practice_code/scenes_inf443/02b_opengl_shading/build/CMakeFiles/02b_opengl_shading.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/02b_opengl_shading.dir/depend
 

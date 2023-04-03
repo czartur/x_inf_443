@@ -20469,7 +20469,8 @@ CMakeFiles/03b_modeling.dir/src/main.cpp.o: ../src/main.cpp \
   /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.hpp \
   /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.hpp \
   ../src/environment.hpp \
-  ../src/scene.hpp
+  ../src/scene.hpp \
+  ../src/terrain.hpp
 
 CMakeFiles/03b_modeling.dir/src/scene.cpp.o: ../src/scene.cpp \
   /usr/include/stdc-predef.h \

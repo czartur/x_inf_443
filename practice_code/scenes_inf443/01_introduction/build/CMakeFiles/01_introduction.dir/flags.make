@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = -DIMGUI_IMPL_OPENGL_LOADER_GLAD
 
-CXX_INCLUDES = -I/home/czar/code/inf443/inf443_practice_code/scenes_inf443/01_introduction/src -I/home/czar/code/inf443/inf443_practice_code/cgp/library
+CXX_INCLUDES = -I/home/czar/code/inf443/practice_code/scenes_inf443/01_introduction/src -I/home/czar/code/inf443/cgp/library
 
 CXX_FLAGS = -O2 -g -DNDEBUG   -g -O2 -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-pragmas -Wno-sign-compare -Wno-type-limits
 

@@ -69,9 +69,10 @@ void scene_structure::initialize()
 	wing.initialize_data_on_gpu(mesh_primitive_quadrangle({-0.5f,0,0},{0.5,0,0}, {0.5,0.5f,0}, {-0.5f,0.5f,0}));
 	// wing_son.initialize_data_on_gpu(mesh_primitive_quadrangle({}));
 
-	hierarchy.add(body, "Body");
-	hierarchy.add(head, "Head", "Body");
-	hierarchy.add(beak, "Beak", "Head");
+	// hierarchy.add(body, "Body");
+	// hierarchy.add(head, "Head", "Body");
+	// hierarchy.add(beak, "Beak", "Head");
+	// hierarchy.add()
 }
 
 

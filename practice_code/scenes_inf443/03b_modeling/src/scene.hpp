@@ -3,7 +3,7 @@
 
 #include "cgp/cgp.hpp"
 #include "environment.hpp"
-
+#include "terrain.hpp"
 
 // This definitions allow to use the structures: mesh, mesh_drawable, etc. without mentionning explicitly cgp::
 using cgp::mesh;
@@ -27,7 +27,7 @@ struct scene_structure : cgp::scene_inputs_generic {
 	camera_controller_orbit_euler camera_control;
 	camera_projection_perspective camera_projection;
 	window_structure window;
-
+	perlin_noise_parameters parameters;
 
 	mesh_drawable global_frame;          // The standard global frame
 	environment_structure environment;   // Standard environment controler
@@ -37,7 +37,7 @@ struct scene_structure : cgp::scene_inputs_generic {
 	// ****************************** //
 	// Elements and shapes of the scene
 	// ****************************** //
-
+	cgp::mesh terrain_mesh;
 	cgp::mesh_drawable terrain;
 	cgp::mesh_drawable cylinder;
 	cgp::mesh_drawable cone;

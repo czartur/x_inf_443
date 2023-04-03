@@ -5,7 +5,7 @@
 using namespace cgp;
 
 // Evaluate 3D position of the terrain for any (x,y)
-float evaluate_terrain_height(float x, float y, float terrain_length)
+float evaluate_terrain_height(float x, float y)
 {
     // vec2 p_0 = { 0, 0 };
     // float h_0 = 2.0f;
@@ -26,12 +26,11 @@ float evaluate_terrain_height(float x, float y, float terrain_length)
         z += h[i]*std::exp(-d * d);
     }
 
-    perlin_noise_parameters parameters;
-    float u = 0.5f + x/terrain_length;
-    float v = 0.5f + y/terrain_length;
-    float const noise = noise_perlin({u, v}, parameters.octave, parameters.persistency, parameters.frequency_gain);
-
-    return z*noise;
+    // float u = 0.5f + x/terrain_length;
+    // float v = 0.5f + y/terrain_length;
+    // float const noise = noise_perlin({u, v}, parameters.octave, parameters.persistency, parameters.frequency_gain);
+    // return z*noise;
+    return z;
 }
 
 mesh create_terrain_mesh(int N, float terrain_length)
@@ -55,10 +54,12 @@ mesh create_terrain_mesh(int N, float terrain_length)
             float y = (v - 0.5f) * terrain_length;
 
             // Compute the surface height function at the given sampled coordinate
-            float z = evaluate_terrain_height(x,y,terrain_length);
+            perlin_noise_parameters parameters;
+            float z = evaluate_terrain_height(x,y);
+            float perlin_noise = noise_perlin({u,v}, parameters.octave, parameters.persistency, parameters.frequency_gain); 
 
             // Store vertex coordinates
-            terrain.position[kv+N*ku] = {x,y,z};
+            terrain.position[kv+N*ku] = {x,y,z*perlin_noise};
             terrain.uv[kv+N*ku] = {6*v,6*u};
         }
     }
@@ -85,12 +86,41 @@ mesh create_terrain_mesh(int N, float terrain_length)
     return terrain;
 }
 
+void update_terrain(mesh& terrain, mesh_drawable& terrain_visual, int N, double terrain_length, perlin_noise_parameters const& parameters){
+    for(int ku=0; ku<N; ++ku)
+    {
+        for(int kv=0; kv<N; ++kv)
+        {
+            // Compute local parametric coordinates (u,v) \in [0,1]
+            float u = ku/(N-1.0f);
+            float v = kv/(N-1.0f);
+
+            // Compute the real coordinates (x,y) of the terrain in [-terrain_length/2, +terrain_length/2]
+            float x = (u - 0.5f) * terrain_length;
+            float y = (v - 0.5f) * terrain_length;
+
+            // Compute the surface height function at the given sampled coordinate
+            float z = evaluate_terrain_height(x,y);
+            float perlin_noise = noise_perlin({u,v}, parameters.octave, parameters.persistency, parameters.frequency_gain); 
+
+            // Store vertex coordinates
+            terrain.position[kv+N*ku].z = z*perlin_noise;
+        }
+    }
+
+    terrain.normal_update();
+
+    terrain_visual.vbo_position.update(terrain.position);
+    terrain_visual.vbo_normal.update(terrain.normal);
+    terrain_visual.vbo_color.update(terrain.color);
+}
+
 std::vector<cgp::vec3> generate_positions_on_terrain(int N, float terrain_length){
     std::vector<cgp::vec3> positions(N);
     for(auto& p : positions) {
         float x = rand_interval(-terrain_length/2, terrain_length/2);
         float y = rand_interval(-terrain_length/2, terrain_length/2);
-        p = vec3{x, y, evaluate_terrain_height(x,y,terrain_length)};
+        p = vec3{x, y, evaluate_terrain_height(x,y)};
     }
     return positions;
 }

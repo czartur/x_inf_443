@@ -1,12 +1,12 @@
 CMakeFiles/01_introduction.dir/src/environment.cpp.o: \
- /home/czar/code/inf443/inf443_practice_code/scenes_inf443/01_introduction/src/environment.cpp \
+ /home/czar/code/inf443/practice_code/scenes_inf443/01_introduction/src/environment.cpp \
  /usr/include/stdc-predef.h \
- /home/czar/code/inf443/inf443_practice_code/scenes_inf443/01_introduction/src/environment.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/cgp.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/cgp_parameters.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/core.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/base.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/error/error.hpp \
+ /home/czar/code/inf443/practice_code/scenes_inf443/01_introduction/src/environment.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/cgp.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/cgp_parameters.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/core.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/base.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/error/error.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,21 +145,21 @@ CMakeFiles/01_introduction.dir/src/environment.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/basic_types/basic_types.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/basic_types/basic_types.hpp \
  /usr/include/c++/11/cstddef \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/stl/stl.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/stl/stl.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/types/types.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/string/string.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/base/rand/rand.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/array.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/numarray_stack.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/types/types.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/string/string.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/base/rand/rand.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/array.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/numarray_stack.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -170,11 +170,11 @@ CMakeFiles/01_introduction.dir/src/environment.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack2.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack3.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack4.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/array/numarray/numarray.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack2.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack3.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/implementation/numarray_stack4.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray_stack/special_types/special_types.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/array/numarray/numarray.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -197,19 +197,19 @@ CMakeFiles/01_introduction.dir/src/environment.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/containers.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/offset_grid/offset_grid.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/grid_stack_2D.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/grid.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/grid_2D/grid_2D.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/grid/grid_3D/grid_3D.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/image/image.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/vec/vec.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/vec/vec2/vec2.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/vec/vec3/vec3.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/vec/vec4/vec4.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/matrix_stack.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/containers.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/offset_grid/offset_grid.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/grid_stack/grid_stack_2D/grid_stack_2D.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/grid.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/grid_2D/grid_2D.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/grid/grid_3D/grid_3D.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/image/image.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/vec/vec.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/vec/vec2/vec2.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/vec/vec3/vec3.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/vec/vec4/vec4.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/matrix_stack.hpp \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
@@ -220,109 +220,109 @@ CMakeFiles/01_introduction.dir/src/environment.cpp.o: \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/special_types.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/files/files.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/special_types.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/containers/matrix_stack/special_types/definition/special_types.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/files/files.hpp \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/core/path/path.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/geometry.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat2/mat2.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat3/mat3.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/mat4/mat4.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/mat/functions/mat_functions.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/transform.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/quaternion/quaternion.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/affine/affine/affine.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/frame/frame.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/transform/projection/projection.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/shape.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/mesh.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/structure/mesh.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/loader.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/curve/curve.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/noise/noise.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/intersection/intersection.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/implicit.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/geometry/interpolation/interpolation.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/graphics.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/opengl.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/opengl_include.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/glad.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/glad/opengl33/khrplatform.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/buffer.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/debug/debug.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/uniform/uniform.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/shaders.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/opengl/texture/texture.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/environment/environment.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/core/path/path.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/geometry.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat2/mat2.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat3/mat3.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/mat/mat4/mat4.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/mat/functions/mat_functions.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/transform.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/rotation_transform/rotation_transform.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/quaternion/quaternion.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rt/affine_rt.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine_rts/affine_rts.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/affine/affine/affine.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/frame/frame.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/transform/projection/projection.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/shape.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/mesh.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/structure/mesh.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/primitive/mesh_primitive.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/loader.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/mesh/loader/obj/obj.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/curve/curve.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/noise/noise.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/intersection/intersection.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/implicit.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/implicit/marching_cube/marching_cube.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/geometry/interpolation/interpolation.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/graphics.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/opengl.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/opengl_include.hpp \
+ /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/glad.hpp \
+ /home/czar/code/inf443/cgp/library/third_party/src/glad/opengl33/khrplatform.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/buffer.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/opengl_buffer/opengl_buffer.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/vbo/vbo.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/buffer/ebo/ebo.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/debug/debug.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/uniform/uniform.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/shaders.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/shaders/cache_uniform_location/cache_uniform_location.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/opengl/texture/texture.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/mesh_drawable/mesh_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/environment/environment.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/special_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/imgui/imgui.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imconfig.h \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/triangles_drawable/triangles_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable/curve_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/special_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/skybox_drawable/skybox_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/special_drawable/trajectory_drawable/trajectory_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/imgui/imgui.hpp \
+ /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui.h \
+ /home/czar/code/inf443/cgp/library/third_party/src/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h /usr/include/string.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.h \
+ /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_glfw.h \
+ /home/czar/code/inf443/cgp/library/third_party/src/imgui/imgui_impl_opengl3.h \
  /usr/include/GLFW/glfw3.h \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/input_devices/input_devices.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_model.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/window/window.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/time.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/tracker.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.hpp \
- /home/czar/code/inf443/inf443_practice_code/cgp/library/cgp/graphics/emscripten/emscripten.hpp
+ /home/czar/code/inf443/cgp/library/cgp/graphics/input_devices/input_devices.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_structure/picking_structure.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_spheres/picking_spheres.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_model.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_generic_base/camera_generic_base.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit/camera_orbit.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_orbit_euler/camera_orbit_euler.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person/camera_first_person.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/camera_first_person_euler/camera_first_person_euler.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_model/common_functions/common_functions.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_projection/camera_projection.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_generic_base/camera_controller_generic_base.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/window/window.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit/camera_controller_orbit.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person/camera_controller_first_person.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/camera/camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/picking/picking_plane/picking_plane.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/time.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_basic/timer_basic.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_event_periodic/timer_event_periodic.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_fps/timer_fps.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/timer/timer_interval/timer_interval.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/tracker.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/time/tracker/velocity_tracker/velocity_tracker.hpp \
+ /home/czar/code/inf443/cgp/library/cgp/graphics/emscripten/emscripten.hpp
